@@ -1,9 +1,19 @@
 <template>
-  <home />
+  <!-- <home /> -->
+  <router-view></router-view>
 </template>
 
 <script setup>
 import home from './components/home.vue'
+import about from './components/about.vue'
+
+const routes = {
+  '/home': home,
+  '/about': about
+}
+
+
+
 </script>
 
 <style lang="scss">
