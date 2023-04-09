@@ -7,10 +7,9 @@ module.exports = {
       'SmileySans':['SmileySans', 'sans-serif'],
     },
     spacing: {
-      'card-l': '48rem',
+      'card-l': '36em',
     },
   },
-
    },
    plugins: [],
   };
